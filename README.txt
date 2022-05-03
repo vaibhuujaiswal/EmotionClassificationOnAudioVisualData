@@ -12,7 +12,20 @@ Information regarding the dataset can be read here: https://www.kaggle.com/datas
 
 Since the dataset contains duplicates. (Video-audio and video only), hence we will only use half of the dataset, i.e. 1440 video clips of 24 different actors. 
 
-
+SVM
+SVM Testing Accuracy :  27.350427350427353
+SVM Precision Score :  28.62251905015063
+SVM Recall Score :  25.942887931034488
+SVM F1 Score :  0.23631163979864725
+SVM Confusion Matrix
+ [[ 2 11  0  0  0  0  0  3]
+ [ 0 21  6  1  1  0  0  3]
+ [ 0 11 21  0  0  0  0  0]
+ [ 3  9  2  0  5  2  0  8]
+ [ 4  7  1  0  5 10  0  5]
+ [ 4  9  0  2  1  7  1  8]
+ [ 5  3  0  0  6  7  4  7]
+ [ 6 10  0  0  1  7  1  4]]
 
 
 Baseline Implementation 
